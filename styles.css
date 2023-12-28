@@ -1,0 +1,29 @@
+  /* Hide scrollbar for Chrome, Safari, and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+      display: none;
+  }
+
+  /* Hide scrollbar for IE, Edge, and Firefox */
+  .no-scrollbar {
+      -ms-overflow-style: none;
+      /* IE and Edge */
+      scrollbar-width: none;
+      /* Firefox */
+      overflow: -moz-scrollbars-none; /* Firefox */
+      overflow-y: scroll;
+      -webkit-overflow-scrolling: touch; /* Enable momentum scrolling on iOS devices */
+  }
+
+  .scrolling-touch {
+      -webkit-overflow-scrolling: touch;
+  }
+
+  .scrolling-auto {
+      -webkit-overflow-scrolling: auto;
+  }
+
+  .no-drag > * {
+    -webkit-user-select: none; /* Disable text selection for Safari */
+    user-select: none; /* Disable text selection for other browsers */
+  }
+

@@ -14,3 +14,22 @@ function scrollHandler(e){
 
 scrollHandler(); // Initial correction
 window.onscroll = scrollHandler;
+
+function getPlans(){
+    fetch("./public/planes.json").then(response => {
+        if(!response.ok){
+            return ""
+        }
+        return response.json();
+    }).then(data => {
+        const plans = data.planes;
+        for (let plan of plans){
+            // Create elements and append to div.
+            console.log(plan)
+        }
+    }).catch(e => {
+        console.log(e)
+    })
+}
+
+getPlans()
