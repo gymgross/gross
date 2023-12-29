@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect} from 'react'
 import './App.css'
 import planes from './assets/planes/planes.json'
 
@@ -52,7 +52,7 @@ function App() {
             <h1>Planes</h1>
         </div>
         <div className="snap-x overflow-scroll w-full flex gap-4 mx-4 no-scrollbar scrolling-touch no-drag px-4">
-            {planes.map((plan,i) => <img className="snap-start shrink-0 " src={basePrefix(plan.image)} key={i} />)}
+            {planes.map((plan,i) => <img className="snap-start shrink-0 " src={() => import(plan)} key={i} />)}
         </div>
     </div>
     </>

@@ -1,8 +1,4 @@
 [
-    {
-        "image": "assets/planes/mensual.jpeg"
-    },
-    {
-        "image": "assets/planes/mensual.jpeg"
-    }
+    "/src/assets/planes/mensual.jpeg",
+    "/src/assets/planes/mensual.jpeg"
 ]
