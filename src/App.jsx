@@ -8,6 +8,12 @@ function App() {
   function basePrefix(e) {
     return `${import.meta.env.BASE_URL}${e}`;
   }
+  const getAssetSrc = (name) => {
+    const path = `/src/assets/${name}`;
+    const modules = import.meta.glob("/src/assets/**", { eager: true });
+    const mod = modules[path];
+    return mod.default;
+};
   const handleScroll = () => {
       const position = window.scrollY;
       setScrollPosition(position);
@@ -51,7 +57,7 @@ function App() {
             <h1>Planes</h1>
         </div>
         <div className="snap-x overflow-scroll w-full flex gap-4 mx-4 no-scrollbar scrolling-touch no-drag px-4">
-            {planes.map((plan,i) => <img className="snap-start shrink-0 " src={plan} key={i} />)}
+            {planes.map((plan,i) => <img className="snap-start shrink-0 " src={getAssetSrc(plan)} key={i} />)}
         </div>
     </div>
     </>
