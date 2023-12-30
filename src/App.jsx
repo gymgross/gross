@@ -2,14 +2,9 @@ import { useState, useEffect} from 'react'
 import './App.css'
 import planes from './assets/planes/planes.json'
 
-console.log(planes)
 
 function App() {
   const [scrollPosition, setScrollPosition] = useState(0);
-  function getImgUrl(path) {
-    return new URL(`${path}`, import.meta.url).href
- }
-
   function basePrefix(e) {
     return `${import.meta.env.BASE_URL}${e}`;
   }
@@ -56,7 +51,7 @@ function App() {
             <h1>Planes</h1>
         </div>
         <div className="snap-x overflow-scroll w-full flex gap-4 mx-4 no-scrollbar scrolling-touch no-drag px-4">
-            {planes.map((plan,i) => <img className="snap-start shrink-0 " src={getImgUrl(plan)} key={i} />)}
+            {planes.map((plan,i) => <img className="snap-start shrink-0 " src={plan} key={i} />)}
         </div>
     </div>
     </>
