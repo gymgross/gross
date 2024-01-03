@@ -1,6 +1,6 @@
 import { useState, useEffect} from 'react'
 import './App.css'
-import planes from './assets/planes/planes.json'
+import planes from './assets/planes.json'
 
 
 function App() {
@@ -8,12 +8,12 @@ function App() {
   function basePrefix(e) {
     return `${import.meta.env.BASE_URL}${e}`;
   }
-  const getAssetSrc = (name) => {
+  /*const getAssetSrc = (name) => {
     const path = `/src/assets/${name}`;
     const modules = import.meta.glob("/src/assets/**", { eager: true });
     const mod = modules[path];
     return mod.default;
-};
+};*/
   const handleScroll = () => {
       const position = window.scrollY;
       setScrollPosition(position);
@@ -41,23 +41,39 @@ function App() {
             </div>
         </div>
     </div>
-    <div className="grid grid-rows-auto h-full w-full">
-        <div id="hero" className="relative overflow-hidden">
+    <div className="grid grid-rows-auto w-full">
+        <div id="hero" className="relative overflow-hidden h-screen flex -mb-8">
             <div className=" hidden absolute z-30 grid grid-rows-5 h-full w-full">
                 <div className="text-5xl text-center text-white justify-self-center self-center row-span-3">
                     GROSS GYM FITNESS CHILE
                 </div>
             </div>
-            <div className="relative contrast-200 w-full scale-100"  id="welcomeVideoParent">
+            <div className="relative contrast-200 w-full scale-100 self-center"  id="welcomeVideoParent">
                 <video poster={basePrefix("op.webp")} loop disablePictureInPicture autoPlay muted
                     src={basePrefix("op.webm")}></video>
             </div>
         </div>
-        <div>
-            <h1>Planes</h1>
-        </div>
-        <div className="snap-x overflow-scroll w-full flex gap-4 mx-4 no-scrollbar scrolling-touch no-drag px-4">
-            {planes.map((plan,i) => <img className="snap-start shrink-0 " src={getAssetSrc(plan)} key={i} />)}
+        <div className="text-white h-screen snap-x overflow-scroll w-full flex mx-4 no-scrollbar scrolling-touch no-drag px-4 scale-90">
+            {planes.map((plan,i) => {
+                return  <>
+                        <div key={i} className="snap-start shrink-0 span  overflow-hidden relative  w-screen">
+                            <img className='absolute object-cover h-full' src={plan.image}></img>
+                            <div className={`absolute top-0 ${i % 2 != 0 ? "left-0" : "right-0"} h-full w-2/5 bg-black opacity-80 p-8 text-center rotate-1`}>
+                                <h2 className='text-4xl font-bold uppercase from-yellow-400 to-red-500 text'>
+                                    {plan.nombre}
+                                </h2>
+                                {plan.notas.map((note,j) => {
+                                    return <>
+                                        <h3 className='text-2xl mt-4' key={j}>{note}</h3> 
+                                    </>
+                                })}
+                                <h2 className='text-4xl mt-8'>
+                                    {plan.precio} Mensual
+                                </h2>
+                            </div>
+                        </div>
+                    </> 
+            })}
         </div>
     </div>
     </>

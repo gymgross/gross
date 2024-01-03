@@ -5,3 +5,9 @@
 body{
   @apply bg-black
 }
+
+.gradient-text {
+  background: -webkit-linear-gradient(#ffe300, #ff0000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

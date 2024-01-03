@@ -1,0 +1,45 @@
+[
+
+        {
+            "nombre": "Plan mensual estudiante",
+            "precio": "$20.000",
+            "image": "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e",
+            "notas": ["Matricula gratis", "Horario: 10:00 a 16:00 hrs."]
+        },
+        {
+            "nombre": "Plan mensual adulto mayor",
+            "precio": "$20.000",
+            "image": "https://images.unsplash.com/photo-1571731956672-f2b94d7dd0cb",
+            "notas": ["Matricula gratis", "Horario: 10:00 a 16:00 hrs."]
+        },
+        {
+            "nombre": "Plan trimestral",
+            "precio": "$90.000",
+            "image": "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e",
+            "notas": ["No incluye matricula"]
+        },
+        {
+            "nombre": "Plan semestral",
+            "precio": "$120.000",
+            "image": "https://images.unsplash.com/photo-1571731956672-f2b94d7dd0cb",
+            "notas": ["Matricula gratis", "Evolución composición corporal", "Rutina básica de ejercicios"]
+        },
+        {
+            "nombre": "Plan anual",
+            "precio": "$170.000",
+            "image": "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e",
+            "notas": ["Matricula gratis", "Evolución composición corporal", "Rutina básica de ejercicios", "Polera de regalo"]
+        },
+        {
+            "nombre": "Plan anual estudiante",
+            "precio": "$140.000",
+            "image": "https://images.unsplash.com/photo-1571731956672-f2b94d7dd0cb",
+            "notas": ["Matricula gratis", "Evolución composición corporal", "Rutina básica de ejercicios", "Polera de regalo"]
+        },
+        {
+            "nombre": "Plan anual adulto mayor",
+            "precio": "$140.000",
+            "image": "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e",
+            "notas": ["Matricula gratis", "Evolución composición corporal", "Rutina básica de ejercicios", "Polera de regalo"]
+        }
+]
