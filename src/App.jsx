@@ -26,7 +26,7 @@ function App() {
   }, []);
   return (
     <>
-    <div id="sticky" className={`fixed z-50 bg-black transition-transform transform ${scrollPosition < 16 ? "-translate-y-full": "translate-y-0"}`}>
+    <div id="sticky" className={`w-screen fixed z-50 bg-black transition-transform transform ${scrollPosition < 16 ? "-translate-y-full": "translate-y-0"}`}>
         <img className="w-1/3 contrast-200 m-auto" src={basePrefix("logo.webp")} alt="Logo" />
     </div>
     <div id="header" className="w-full hidden">
@@ -58,16 +58,16 @@ function App() {
                 return  <>
                         <div key={i} className="snap-start shrink-0 span  overflow-hidden relative  w-screen">
                             <img className='absolute object-cover h-full' src={plan.image}></img>
-                            <div className={`absolute top-0 ${i % 2 != 0 ? "left-0" : "right-0"} h-full w-2/5 bg-black opacity-80 p-8 text-center rotate-1`}>
-                                <h2 className='text-4xl font-bold uppercase from-yellow-400 to-red-500 text'>
+                            <div className={`absolute top-0 ${i % 2 != 0 ? "left-0" : "right-0"} h-full w-2/5 bg-black opacity-80 p-8 text-center `}>
+                                <h2 className='text-xl md:text-4xl font-bold uppercase from-yellow-400 to-red-500 text'>
                                     {plan.nombre}
                                 </h2>
                                 {plan.notas.map((note,j) => {
                                     return <>
-                                        <h3 className='text-2xl mt-4' key={j}>{note}</h3> 
+                                        <h3 className='md:text-2xl md:mt-4' key={j}>{note}</h3> 
                                     </>
                                 })}
-                                <h2 className='text-4xl mt-8'>
+                                <h2 className='text-2xl md:text-4xl md:mt-8'>
                                     {plan.precio} Mensual
                                 </h2>
                             </div>
