@@ -58,7 +58,7 @@ function App() {
                 return  <>
                         <div key={i} className="snap-start shrink-0 span  overflow-hidden relative  w-screen">
                             <img className='absolute object-cover h-full' src={plan.image}></img>
-                            <div className={`absolute top-0 ${i % 2 != 0 ? "left-0" : "right-0"} h-full w-2/5 bg-black opacity-80 p-8 text-center `}>
+                            <div className={`absolute top-0 ${i % 2 != 0 ? "left-0" : "right-0"} h-full w-2/5 bg-black opacity-80 p-8 text-center pt-16`}>
                                 <h2 className='text-xl md:text-4xl font-bold uppercase from-yellow-400 to-red-500 text'>
                                     {plan.nombre}
                                 </h2>
