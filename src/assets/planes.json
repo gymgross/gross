@@ -27,7 +27,7 @@
       "name": "Trimestral",
       "cost": "$90.000 cada 3 meses",
       "registration_fee": true,
-      "features": [],
+      "features": ["Matrícula $20.000-"],
       "schedule": "10:00 a 16:00 hrs.",
       "image_url": ""
     },
@@ -36,7 +36,7 @@
       "cost": "$120.000 cada 6 meses",
       "registration_fee": false,
       "features": [
-        "Matrícula gratis",
+        "Matrícula $20.000-",
         "Evolución composición corporal",
         "Rutina básica de ejercicios"
       ],
@@ -48,7 +48,7 @@
       "cost": "$170.000 al año",
       "registration_fee": false,
       "features": [
-        "Matrícula gratis",
+        "Matrícula $20.000-",
         "Evaluación composición corporal",
         "Rutina básica de ejercicios",
         "Polera GrossGym de regalo"
@@ -61,7 +61,7 @@
       "cost": "$140.000 al año",
       "registration_fee": false,
       "features": [
-        "Matrícula gratis",
+        "Matrícula $20.000-",
         "Evaluación composición corporal",
         "Rutina básica de ejercicios",
         "Polera GrossGym de regalo"
@@ -74,7 +74,7 @@
       "cost": "$140.000 al año",
       "registration_fee": false,
       "features": [
-        "Matrícula gratis",
+        "Matrícula $20.000-",
         "Evaluación composición corporal",
         "Rutina básica de ejercicios",
         "Polera GrossGym de regalo"
