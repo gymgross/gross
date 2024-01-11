@@ -2,8 +2,8 @@
     {
       "name": "Mensual",
       "cost": "$30.000 al mes",
-      "registration_fee": true,
-      "features": [],
+      "registration_fee": false,
+      "features": ["Matrícula $20.000-"],
       "schedule": "10:00 a 16:00 hrs.",
       "image_url": ""
     },
@@ -11,7 +11,7 @@
       "name": "Mensual Estudiante",
       "cost": "$20.000 al mes",
       "registration_fee": false,
-      "features": [],
+      "features": ["Matrícula $20.000-"],
       "schedule": "10:00 a 16:00 hrs.",
       "image_url": ""
     },
@@ -26,7 +26,7 @@
     {
       "name": "Trimestral",
       "cost": "$90.000 cada 3 meses",
-      "registration_fee": true,
+      "registration_fee": false,
       "features": ["Matrícula $20.000-"],
       "schedule": "10:00 a 16:00 hrs.",
       "image_url": ""
