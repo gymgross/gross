@@ -11,7 +11,8 @@
     {
       "name": "Mensual Estudiante",
       "cost": "$20.000 al mes",
-      "features": ["Matrícula Gratis"],
+      "registration_fee": false,
+      "features": ["Matrícula $20.000-"],
       "schedule": "10:00 a 16:00 hrs.",
       "image_url": ""
     },
@@ -25,13 +26,17 @@
     {
       "name": "Trimestral",
       "cost": "$90.000 cada 3 meses",
-      "features": ["Matrícula $20.000-"],
+      "registration_fee": false,
+      "features": [
+        "Matrícula $20.000-"
+      ],
       "schedule": "10:00 a 16:00 hrs.",
       "image_url": ""
     },
     {
       "name": "Semestral",
       "cost": "$120.000 cada 6 meses",
+      "registration_fee": false,
       "features": [
         "Matrícula $20.000-",
         "Evolución composición corporal",
@@ -43,6 +48,7 @@
     {
       "name": "Anual",
       "cost": "$170.000 al año",
+      "registration_fee": false,
       "features": [
         "Matrícula $20.000-",
         "Evaluación composición corporal",
@@ -55,6 +61,7 @@
     {
       "name": "Anual Estudiante",
       "cost": "$140.000 al año",
+      "registration_fee": false,
       "features": [
         "Matrícula $20.000-",
         "Evaluación composición corporal",
@@ -67,6 +74,7 @@
     {
       "name": "Anual Adulto Mayor",
       "cost": "$140.000 al año",
+      "registration_fee": false,
       "features": [
         "Matrícula $20.000-",
         "Evaluación composición corporal",
