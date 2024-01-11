@@ -132,7 +132,6 @@ return (
                                 <div className="text-2xl font-bold ">
                                     Plan: {plan.name}
                                 </div>
-                                <div className='text-xl'>Matricula: {plan.registration_fee ? "$20.000" : "GRATIS"}</div> 
                                 <div className="text-xl">Horarios: {plan.schedule}</div>
                                 <div className='text-xl'>{() => {
                                     if(plan.features.length){
