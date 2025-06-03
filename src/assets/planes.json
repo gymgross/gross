@@ -5,7 +5,7 @@
       "features": [        
           "Matrícula $20.000-"
       ],
-      "schedule": "10:00 a 16:00 hrs.",
+      "schedule": "05:00 a 22:00 hrs.",
       "image_url": ""
     },
     {
@@ -13,7 +13,7 @@
       "cost": "$20.000 al mes",
       "registration_fee": false,
       "features": ["Matrícula $20.000-"],
-      "schedule": "10:00 a 16:00 hrs.",
+      "schedule": "07:00 a 22:00 hrs.",
       "image_url": ""
     },
     {
@@ -22,7 +22,7 @@
       "features": [
           "Matrícula gratis"
       ],
-      "schedule": "10:00 a 16:00 hrs.",
+      "schedule": "07:00 a 22:00 hrs.",
       "image_url": ""
     },
     {
@@ -32,7 +32,7 @@
       "features": [
         "Matrícula $20.000-"
       ],
-      "schedule": "10:00 a 16:00 hrs.",
+      "schedule": "05:00 a 22:00 hrs.",
       "image_url": ""
     },
     {
@@ -44,7 +44,7 @@
         "Evolución composición corporal",
         "Rutina básica de ejercicios"
       ],
-      "schedule": "10:00 a 16:00 hrs.",
+      "schedule": "05:00 a 22:00 hrs.",
       "image_url": ""
     },
     {
@@ -57,7 +57,7 @@
         "Rutina básica de ejercicios",
         "Polera GrossGym de regalo"
       ],
-      "schedule": "10:00 a 16:00 hrs.",
+      "schedule": "05:00 a 22:00 hrs.",
       "image_url": ""
     },
     {
@@ -70,7 +70,7 @@
         "Rutina básica de ejercicios",
         "Polera GrossGym de regalo"
       ],
-      "schedule": "10:00 a 16:00 hrs.",
+      "schedule": "07:00 a 22:00 hrs.",
       "image_url": ""
     },
     {
@@ -83,7 +83,7 @@
         "Rutina básica de ejercicios",
         "Polera GrossGym de regalo"
       ],
-      "schedule": "10:00 a 16:00 hrs.",
+      "schedule": "07:00 a 22:00 hrs.",
       "image_url": ""
     }
   ]
