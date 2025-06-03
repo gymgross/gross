@@ -19,7 +19,9 @@
     {
       "name": "Mensual Adulto Mayor",
       "cost": "$20.000 al mes",
-      "features": ["Matrícula gratis"],
+      "features": [
+          "Matrícula gratis"
+      ],
       "schedule": "10:00 a 16:00 hrs.",
       "image_url": ""
     },
@@ -76,7 +78,7 @@
       "cost": "$140.000 al año",
       "registration_fee": false,
       "features": [
-        "Matrícula $20.000-",
+        "Matrícula gratis",
         "Evaluación composición corporal",
         "Rutina básica de ejercicios",
         "Polera GrossGym de regalo"
