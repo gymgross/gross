@@ -15,7 +15,7 @@
       "features": [
         "Matrícula $20.000-"
       ],
-      "schedule": "05:00 a 22:00 hrs.",
+      "schedule": "07:00 a 16:00 hrs.",
       "image_url": ""
     },
     {
@@ -24,7 +24,7 @@
       "features": [
           "Matrícula gratis"
       ],
-      "schedule": "05:00 a 22:00 hrs.",
+      "schedule": "07:00 a 16:00 hrs.",
       "image_url": ""
     },
     {
@@ -56,8 +56,7 @@
       "features": [
         "Matrícula $20.000-",
         "Evaluación composición corporal",
-        "Rutina básica de ejercicios",
-        "Polera GrossGym de regalo"
+        "Rutina básica de ejercicios"
       ],
       "schedule": "05:00 a 22:00 hrs.",
       "image_url": ""
@@ -69,8 +68,7 @@
       "features": [
         "Matrícula $20.000-",
         "Evaluación composición corporal",
-        "Rutina básica de ejercicios",
-        "Polera GrossGym de regalo"
+        "Rutina básica de ejercicios"
       ],
       "schedule": "05:00 a 22:00 hrs.",
       "image_url": ""
@@ -82,10 +80,9 @@
       "features": [
         "Matrícula gratis",
         "Evaluación composición corporal",
-        "Rutina básica de ejercicios",
-        "Polera GrossGym de regalo"
+        "Rutina básica de ejercicios"
       ],
-      "schedule": "05:00 a 22:00 hrs.",
+      "schedule": "07:00 a 16:00 hrs.",
       "image_url": ""
     }
   ]
