@@ -152,6 +152,14 @@ return (
             </div>
         </div>
     </div>
+    <div id='servicios' className="w-full p-4">
+        <a href='#servicios' onClick={(e) => scrollToAnchor(e, "servicios")}>
+            <h1 className='text-4xl text-white m-[1rem] font-bold'># Nuestros Servicios</h1>
+        </a>
+        <div className="w-full overflow-x-scroll">
+            En construcción
+        </div>
+    </div>    
     <div id="contacto" className="w-full p-4 text-white">
         <a href="#contacto" onClick={(e) => scrollToAnchor(e, "contacto")}>
             <h1 className='text-4xl font-bold'>
