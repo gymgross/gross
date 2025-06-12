@@ -156,8 +156,13 @@ return (
         <a href='#servicios' onClick={(e) => scrollToAnchor(e, "servicios")}>
             <h1 className='text-4xl text-white m-[1rem] font-bold'># Nuestros Servicios</h1>
         </a>
-        <div className="w-full overflow-x-scroll">
-            En construcción
+        <div className="flex-col w-full">
+            <div className="text-4xl text-white font-bold">
+                En Construcción
+            </div>
+            <div className="my-2 text-4xl text-white font-bold">
+                poner los servicios del gym
+            </div>
         </div>
     </div>    
     <div id="contacto" className="w-full p-4 text-white">
