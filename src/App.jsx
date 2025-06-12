@@ -157,11 +157,9 @@ return (
             <h1 className='text-4xl text-white m-[1rem] font-bold'># Nuestros Servicios</h1>
         </a>
         <div className="flex-col w-full">
-            <div className="text-4xl text-white font-bold">
-                En Construcción
-            </div>
-            <div className="my-2 text-4xl text-white font-bold">
-                poner los servicios del gym
+            <div className="text-4xl text-white font-bold text-center">
+               * Clases Funcionales.
+               * Clases Personalizadas
             </div>
         </div>
     </div>    
