@@ -2,6 +2,7 @@ import { useState, useEffect} from 'react'
 import { Document, Page } from 'react-pdf';
 import './App.css'
 import planes from './assets/planes.json'
+import servicios from './assets/servicios.json'
 
 
 function App() {
@@ -133,14 +134,17 @@ return (
                                     Plan: {plan.name}
                                 </div>
                                 <div className="text-xl">Horarios: {plan.schedule}</div>
-                                <div className='text-xl'>{() => {
-                                    if(plan.features.length){
-                                        return "Incluye:"
-                                    }
-                                    return ""
-                                }} {plan.features.map((feature,i) => {
-                                    return ( <div key={i} className=" badge bg-orange-600 text-white">{feature}</div>)
-                                })} </div>
+                                <div className='text-xl'>
+                                    {() => {
+                                        if(plan.features.length){
+                                            return "Incluye:"
+                                        }
+                                        return ""
+                                    }} 
+                                    {plan.features.map((feature,i) => {
+                                        return ( <div key={i} className=" badge bg-orange-600 text-white">{feature}</div>)
+                                    })} 
+                                </div>
                                 <div className="text-xl mt-4">{plan.cost}</div>
                                 <div className="card-actions mt-4 ">
                                     <div onClick={(e) => sendWhatsapp(e, `Hola, me interesa el plan ${plan.name} y quisiera unirme a Gross Gym. ¿Podría obtener mas información?`)} className="m-auto btn text-white text-xl capitalized bg-orange-600">Me Interesa</div>
@@ -159,8 +163,10 @@ return (
         <div className="flex-col w-full">
             <div className="text-4xl text-white font-bold text-center">
                * Clases Funcionales.
-               * Clases Personalizadas
             </div>
+            <div className="text-4xl text-white font-bold text-center">
+               * Clases Personalizadas.
+            </div>            
         </div>
     </div>    
     <div id="contacto" className="w-full p-4 text-white">
