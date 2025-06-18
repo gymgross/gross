@@ -163,9 +163,9 @@ return (
         <div className="flex-col w-full">
                 {servicios.map((servicio,i) => {
                     return ( 
-                            <div className="text-2xl text-white font-bold text-start">
+                            <div className="card-actions text-2xl text-white font-bold text-start" onClick={(e) => sendWhatsapp(e, `Hola, me interesa el servicio de  ${servicio.name} y quisiera unirme a Gross Gym. ¿Podría obtener mas información?`)}>
                                 {i + 1} .- {servicio.name} - 
-                                    <div onClick={(e) => sendWhatsapp(e, `Hola, me interesa el servicio de  ${servicio.name} y quisiera unirme a Gross Gym. ¿Podría obtener mas información?`)} className="card-actions m-px btn text-white text-xs capitalized bg-orange-600">
+                                    <div  className="bg-orange-600">
                                         Me Interesa
                                     s</div>
                             </div>
