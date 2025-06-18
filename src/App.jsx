@@ -165,7 +165,7 @@ return (
                     return ( 
                             <div className="card-actions text-2xl text-white font-bold text-start" onClick={(e) => sendWhatsapp(e, `Hola, me interesa el servicio de  ${servicio.name} y quisiera unirme a Gross Gym. ¿Podría obtener mas información?`)}>
                                 {i + 1} .- {servicio.name} - 
-                                    <div  className="btn text-white capitalized bg-orange-600">
+                                    <div  className="btn border-none text-white capitalized bg-orange-600">
                                         Me Interesa
                                     </div>
                             </div>
