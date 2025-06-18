@@ -166,7 +166,7 @@ return (
                             <div className="text-2xl text-white font-bold text-start" onClick={(e) => sendWhatsapp(e, `Hola, me interesa el servicio de  ${servicio.name} y quisiera unirme a Gross Gym. ¿Podría obtener mas información?`)}>
                                 {i + 1} .- {servicio.name} - 
                                     <div  className="card-actions btn border-none text-white capitalized bg-orange-600" 
-                                          style="padding-left: 0.3rem; padding-right: 0.3rem; min-height: 2rem;">
+                                          style="padding-left: 0.3px; padding-right: 0.3px; min-height: 2px;">
                                         Me Interesa
                                     </div>
                             </div>
