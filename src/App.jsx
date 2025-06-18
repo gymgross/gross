@@ -159,14 +159,15 @@ return (
     <div id='servicios' className="w-full p-4">
         <a href='#servicios' onClick={(e) => scrollToAnchor(e, "servicios")}>
             <h1 className='text-4xl text-white m-[1rem] font-bold'># Nuestros Servicios</h1>
-        </a>
+        </a>       
         <div className="flex-col w-full">
-            <div className="text-4xl text-white font-bold text-center">
-               * Clases Funcionales.
-            </div>
-            <div className="text-4xl text-white font-bold text-center">
-               * Clases Personalizadas.
-            </div>            
+                {servicios.map((servicio,i) => {
+                    return ( 
+                            <div className="text-2xl text-white font-bold text-start">
+                            * {i + 1} - {servicio.name}
+                            </div>
+                    )
+                })}
         </div>
     </div>    
     <div id="contacto" className="w-full p-4 text-white">
