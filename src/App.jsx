@@ -164,8 +164,8 @@ return (
                 {servicios.map((servicio,i) => {
                     return ( 
                             <div className="text-2xl text-white font-bold text-start" >
-                                {i + 1}.-  {servicio.name} - {' '}
-                                    <div  className="card-actions btn border-none text-white capitalized bg-orange-600 " 
+                                {i + 1}.-  {servicio.name} - {'   '}
+                                    <div  className="botton-funcional btn border-none text-white capitalized bg-orange-600 " 
                                     onClick={(e) => sendWhatsapp(e, `Hola, me interesa el servicio de  ${servicio.name} y quisiera unirme a Gross Gym. ¿Podría obtener mas información?`)}
                                     >
                                         Me Interesa
