@@ -1,11 +1,23 @@
 [
     {
+      "name": "Rutinas Personalizadas",
+      "image_url": ""
+    },
+    {
+      "name": "Asesorias Nutrucional",
+      "image_url": ""
+    },
+    {
+      "name": "Suplementación Deportiva",
+      "image_url": ""
+    },
+    {
       "name": "Clases Funcionales",
       "image_url": ""
     },
     {
-      "name": "Entrenamientos Personalizados",
+      "name": "Evaluaciones Física(Inbody) con los mejores profesores.",
       "image_url": ""
-    }
+    }        
   ]
   
