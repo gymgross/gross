@@ -182,10 +182,10 @@ return (
             </h1>
         </a>
         <div className="flex-col w-full">
-            <div className="text-2xl text-white font-bold text-center">
+            <div className="text-3xl text-white font-bold text-center">
                 Estamos aquí para ayudarte a alcanzar tus objetivos de fitness. 
             </div>
-            <div className="my-2 text-4xl text-white font-bold text-center">
+            <div className="my-2 text-3xl text-white font-bold text-center">
                 Contactanos a:
             </div>
             <div className="w-full flex-col text-center">
